@@ -2,21 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/* ---- basic header and footer design incl. navbar ---- */
-
-
+/* ---- basic header/footer and title design  ---- */
 
 .header-design {
     background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 25%, rgb(246, 187, 30));
     height: 25dvh;
     width: 100%;
   }
-
-.nav-bar-pos {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.25em;
-}
 
 .title-details {
   color: rgb(246, 187, 30);
@@ -25,68 +17,56 @@
   font-size: 4.33em;
   position: absolute;
 }
-  
+    
 .footer-design {
   background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
   height: 15dvh;
   width: 100%;
 }
 
-.email-me-style {
-  color: rgb(0, 0, 0);
-  font-family: "Caveat", sans-serif;
-  font-weight: 700;
-  font-size: 3em;
+.fa-icon-col {
+  color: rgb(235, 21, 108);
 }
 
-.email-text-style {
-  color: rgba(235, 21, 108, 1.0);
-  font-family: "Caveat", sans-serif;
-  font-weight: 600;
-  font-size: 2em;
-} 
-
-.social-media-text {
-  font-family: "Caveat", sans-serif;
-  font-weight: 600;
-  font-size: 1.5em;
+#footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgb(235, 21, 108);
+  padding: 30px;
 }
 
-/* ---- sets the style of the navbar ---- */
+/* ---- navbar details ---- */
+
+.nav-bar-pos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
 
 li {
   float: left;
 }
   
 li a {
-  color: rgba(235, 21, 108, 1.0);
+  color: rgb(235, 21, 108);
   display: block;
   padding: 8px;
   text-decoration: none;
 }
 
-.plain-text {
-  text-decoration: none;
-}
-  
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.fa-pos-style {
-  color: rgba(235, 21, 108, 1.0);
+#plain-text {
+  text-decoration: none;
 }
 
-.footer-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: rgba(235, 21, 108, 1.0);
-  padding: 30px;
-}
+/* ---- left/right styling details for contact page ---- */
 
-.lhs-contact {
+.contact-me-style {
   background-color: rgba(05, 246, 115, 0.15);
   height: 60dvh;
   display: flex;
@@ -102,22 +82,41 @@ ul {
   align-items: center;
 }
 
-.background-color {
-  background-color: rgba(05, 246, 115, 0.15);
+/* ---- contact me page text styling details ---- */
+
+#email-me-style {
+  color: rgb(0, 0, 0);
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
 }
 
-.image-settings {
+#email-text-style {
+  color: rgb(235, 21, 108);
+  font-family: "Caveat", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+} 
+
+#social-media-text {
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+}
+
+#image-settings {
   height: 60dvh;
   width: 100%;
   object-fit: cover;
 }
 
-.text-settings {
+#about-tracey-text {
+  background-color: rgba(05, 246, 115, 0.15);
   height: 60dvh;
   font-family: "Caveat", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
-  color: rgba(0, 0, 0, 1.0);
+  
 }
 
 /* ---- TEMP DIV TO SPACE HEADER AND FOOTER ---- */
@@ -184,9 +183,9 @@ ul {
     left: 15%;
   }
 
-  .lhs-contact {
+  .contact-me-style {
     background-color: rgba(05, 246, 115, 0.15);
-    height: 30dvh;
+    height: 48dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,11 +219,11 @@ ul {
     left: 5%;
   }
 
-  .hide-on-mobiles {
+  #hide-on-mobiles {
     display: none;
   }
 
-  .lhs-contact {
+  .contact-me-style {
     height: 65dvh;
   } 
 }
