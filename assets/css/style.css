@@ -12,205 +12,241 @@
     width: 100%;
   }
 
+.nav-bar-pos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.title-details {
+  color: rgb(246, 187, 30);
+  font-family: "Caveat", sans-serif;
+  font-weight: 600;
+  font-size: 4.33em;
+  position: absolute;
+}
+  
+.footer-design {
+  background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+  height: 15dvh;
+  width: 100%;
+}
+
+.email-me-style {
+  color: rgb(0, 0, 0);
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.email-text-style {
+  color: rgba(235, 21, 108, 1.0);
+  font-family: "Caveat", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+} 
+
+.social-media-text {
+  font-family: "Caveat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/* ---- sets the style of the navbar ---- */
+
+li {
+  float: left;
+}
+  
+li a {
+  color: rgba(235, 21, 108, 1.0);
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.plain-text {
+  text-decoration: none;
+}
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-pos-style {
+  color: rgba(235, 21, 108, 1.0);
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgba(235, 21, 108, 1.0);
+  padding: 30px;
+}
+
+.lhs-contact {
+  background-color: rgba(05, 246, 115, 0.15);
+  height: 60dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rhs-contact {
+  background-color: rgba(05, 246, 115, 0.15);
+  height: 60dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-color {
+  background-color: rgba(05, 246, 115, 0.15);
+}
+
+.image-settings {
+  height: 60dvh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-settings {
+  height: 60dvh;
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+/* ---- TEMP DIV TO SPACE HEADER AND FOOTER ---- */
+
+.temp-spacer-div {
+  height: 60dvh;
+  background-color: rgba(05, 246, 115, 0.15);
+}
+
+/* ---- adjustments to header/footer @various breakpoints ----*/
+
+@media screen and (min-width: 1500px) {
   .nav-bar-pos {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1.25em;
+    position: absolute;
+    top: 19dvh;
+    left: 60%;
+  }
+
+  .title-details {
+    position: absolute;
+    top: 4dvh;
+    left:22%;
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  .nav-bar-pos {
+    position: absolute;
+    top: 18dvh;
+    left: 55%;
+  }
+
+  .title-details {
+    position: absolute;
+    top: 4dvh;
+    left:22%;
+  }
+}
+      
+@media screen and (max-width: 1200px) {
+  .nav-bar-pos {
+    position: absolute;
+    top: 18dvh;
+    left: 55%;
+  }
+
+  .title-details {
+    position: absolute;
+    top: 4dvh;
+    left:22%;
+  }    
+}
+
+@media screen and (max-width: 992px) {
+  .nav-bar-pos {
+    position: absolute;
+    top: 19dvh;
+    left: 55%;
+  }
+
+  .title-details {
+    position: absolute;
+    top: 4dvh;
+    left: 15%;
+  }
+
+  .lhs-contact {
+    background-color: rgba(05, 246, 115, 0.15);
+    height: 30dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .header-design {
+    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 15%, rgb(246, 187, 30));
+    height: 20dvh;
+    width: 100%;
   }
 
   .title-details {
     color: rgb(246, 187, 30);
     font-family: "Caveat", sans-serif;
     font-weight: 600;
-    font-size: 4.33em;
+    font-size: 3.5em;
     position: absolute;
   }
-  
-  .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
-    height: 15dvh;
-    width: 100%;
+
+  .nav-bar-pos {
+    position: absolute;
+    top: 14dvh;
+    left: 45%;
   }
 
-  .email-me-style {
-    color: rgb(0, 0, 0);
-    font-family: "Caveat", sans-serif;
-    font-weight: 700;
-    font-size: 3em;
+  .title-details {
+    position: absolute;
+    top: 4dvh;
+    left: 5%;
   }
 
-  .email-text-style {
-    color: rgb(0, 0, 0);
-    font-family: "Caveat", sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-  } 
-
-  /* ---- sets the style of the navbar ---- */
-
-  li {
-    float: left;
-  }
-  
-  li a {
-    color: rgba(235, 21, 108, 1.0);
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-  }
-
-  .plain-text {
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .fa-pos-style {
-    color: rgba(235, 21, 108, 1.0);
-  }
-
-  .footer-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: rgba(235, 21, 108, 1.0);
-    padding: 30px;
+  .hide-on-mobiles {
+    display: none;
   }
 
   .lhs-contact {
-    background-color: rgba(05, 246, 115, 0.15);
-    height: 60dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 65dvh;
+  } 
+}
+
+@media screen and (max-width: 576px) {
+  .header-design {
+    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    height: 20dvh;
+    width: 100%;
   }
 
-  .rhs-contact {
-    background-color: rgba(05, 246, 115, 0.15);
-    height: 60dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .title-details {
+    color: rgb(246, 187, 30);
+    font-family: "Caveat", sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    position: absolute;
   }
 
-  /* ---- temp div to space header and footer ---- */
-
-  .temp-spacer-div {
-    height: 60dvh;
-    background-color: rgba(05, 246, 115, 0.15);
+  .nav-bar-pos {
+    position: absolute;
+    top: 14dvh;
+    left: 25%;
   }
-
-  /* ---- adjustments to header/footer @various breakpoints ----*/
-
-  @media screen and (min-width: 1500px) {
-    .nav-bar-pos {
-        position: absolute;
-        top: 19dvh;
-        left: 60%;
-      }
-      .title-details {
-        position: absolute;
-        top: 4dvh;
-        left:22%;
-      }
-    }
-
-    @media screen and (max-width: 1499px) {
-      .nav-bar-pos {
-          position: absolute;
-          top: 18dvh;
-          left: 55%;
-        }
-        .title-details {
-          position: absolute;
-          top: 4dvh;
-          left:22%;
-        }
-    }
-      
-  @media screen and (max-width: 1200px) {
-    .nav-bar-pos {
-        position: absolute;
-        top: 18dvh;
-        left: 55%;
-      }
-      .title-details {
-        position: absolute;
-        top: 4dvh;
-        left:22%;
-      }    
-  }
-
-  @media screen and (max-width: 992px) {
-      .nav-bar-pos {
-        position: absolute;
-        top: 19dvh;
-        left: 55%;
-      }
-      .title-details {
-        position: absolute;
-        top: 4dvh;
-        left: 15%;
-      }
-      .lhs-contact {
-        background-color: rgba(05, 246, 115, 0.15);
-        height: 30dvh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-  }
-
-  @media screen and (max-width: 768px) {
-    .header-design {
-        background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 15%, rgb(246, 187, 30));
-        height: 20dvh;
-        width: 100%;
-      }
-    .title-details {
-        color: rgb(246, 187, 30);
-        font-family: "Caveat", sans-serif;
-        font-weight: 600;
-        font-size: 3.5em;
-        position: absolute;
-      }
-    .nav-bar-pos {
-        position: absolute;
-        top: 14dvh;
-        left: 45%;
-      }
-    .title-details {
-        position: absolute;
-        top: 4dvh;
-        left: 5%;
-      }
-    .hide-on-mobiles {
-        display: none;
-      }
-    .lhs-contact {
-        height: 65dvh;
-      } 
-  }
-
-  @media screen and (max-width: 576px) {
-    .header-design {
-      background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
-      height: 20dvh;
-      width: 100%;
-    }
-    .title-details {
-      color: rgb(246, 187, 30);
-      font-family: "Caveat", sans-serif;
-      font-weight: 600;
-      font-size: 2.5em;
-      position: absolute;
-    }
-    .nav-bar-pos {
-      position: absolute;
-      top: 14dvh;
-      left: 25%;
-    }
-  }
+}
