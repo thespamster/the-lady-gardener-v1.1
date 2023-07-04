@@ -126,7 +126,7 @@ ul {
   background-color: rgba(05, 246, 115, 0.15);
 }
 
-/* ---- adjustments to header/footer @various breakpoints ----*/
+/* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
 
 @media screen and (min-width: 1500px) {
   .nav-bar-pos {
