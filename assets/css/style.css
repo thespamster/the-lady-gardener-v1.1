@@ -74,14 +74,6 @@ ul {
   align-items: center;
 }
 
-.rhs-contact {
-  background-color: rgba(05, 246, 115, 0.15);
-  height: 60dvh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* ---- contact me page text styling details ---- */
 
 #email-me-style {
