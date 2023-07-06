@@ -132,15 +132,23 @@ img {
 #social-media-text {
   font-family: "Caveat", sans-serif;
   font-weight: 700;
+  font-size: 1.25em;
+}
+
+details {
+  padding: 15px;
+  background-color: rgba(05, 246, 115, 0);
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
   font-size: 1.75em;
 }
 
-/* ---- TEMP DIV TO SPACE HEADER AND FOOTER ---- */
-
-.temp-spacer-div {
-  height: 60dvh;
+.col-6, .col-lg-4 {
   background-color: rgba(05, 246, 115, 0.15);
-  
+}
+
+.container-fluid {
+  background-color: rgba(05, 246, 115, 0.15);
 }
 
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
