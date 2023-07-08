@@ -77,7 +77,7 @@ ul {
   height: 60dvh;
   font-family: "Caveat", sans-serif;
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
 
 /* ---- styling details for gallery page ---- */
@@ -194,6 +194,14 @@ details {
     top: 4dvh;
     left:22%;
   }
+
+  #about-tracey-text {
+    background-color: rgba(05, 246, 115, 0.15);
+    height: 60dvh;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+  }
 }
       
 @media screen and (max-width: 1200px) {
@@ -207,7 +215,15 @@ details {
     position: absolute;
     top: 4dvh;
     left:22%;
-  }   
+  }
+  
+  #about-tracey-text {
+    background-color: rgba(05, 246, 115, 0.15);
+    height: 60dvh;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    font-size: 1.85em;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -230,6 +246,10 @@ details {
     justify-content: center;
     align-items: center;
   } 
+
+  #about-tracey-text {
+    font-size: 1.85em;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -283,5 +303,9 @@ details {
     position: absolute;
     top: 14dvh;
     left: 25%;
+  }
+
+  #about-tracey-text {
+    font-size: 1.25em;
   }
 }
