@@ -151,13 +151,28 @@ details {
   background-color: rgba(05, 246, 115, 0.15);
 }
 
+/* ---- makes google maps responsive ---- */
+
+.google-map {
+  padding-bottom: 25%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
 
 @media screen and (min-width: 1500px) {
   .nav-bar-pos {
     position: absolute;
     top: 19dvh;
-    left: 60%;
+    left: 65%;
   }
 
   .title-details {
@@ -171,7 +186,7 @@ details {
   .nav-bar-pos {
     position: absolute;
     top: 18dvh;
-    left: 55%;
+    left: 60%;
   }
 
   .title-details {
@@ -185,7 +200,7 @@ details {
   .nav-bar-pos {
     position: absolute;
     top: 18dvh;
-    left: 55%;
+    left: 58%;
   }
 
   .title-details {
@@ -199,7 +214,7 @@ details {
   .nav-bar-pos {
     position: absolute;
     top: 19dvh;
-    left: 55%;
+    left: 60%;
   }
 
   .title-details {
@@ -235,17 +250,13 @@ details {
   .nav-bar-pos {
     position: absolute;
     top: 14dvh;
-    left: 45%;
+    left: 53%;
   }
 
   .title-details {
     position: absolute;
     top: 4dvh;
     left: 5%;
-  }
-
-  #hide-on-mobiles {
-    display: none;
   }
 
   .contact-me-style {
