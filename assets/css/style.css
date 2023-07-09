@@ -1,6 +1,7 @@
 /* ---- import required Google fonts ---- */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap'); 
+
 
 /* ---- basic header/footer and title design  ---- */
 
@@ -73,10 +74,9 @@ ul {
 }
 
 #about-tracey-text {
-  background-color: rgba(05, 246, 115, 0.15);
-  height: 60dvh;
-  font-family: "Caveat", sans-serif;
-  font-weight: 700;
+  background-color: rgba(05, 246, 115, 0.00);
+  min-height: 60dvh;
+  font-family: "Delius", sans-serif;
 }
 
 /* ---- styling details for gallery page ---- */
@@ -99,6 +99,7 @@ img {
 
 .grey:hover {
   filter: none;
+  transition-duration: 1.0s;
 }
 
 
@@ -116,30 +117,31 @@ img {
 
 #email-me-style {
   color: rgb(0, 0, 0);
-  font-family: "Caveat", sans-serif;
-  font-weight: 700;
-  font-size: 3em;
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
 }
 
 #email-text-style {
   color: rgb(235, 21, 108);
-  font-family: "Caveat", sans-serif;
-  font-weight: 600;
-  font-size: 2em;
+  font-family: "Delius", sans-serif;
+  font-size: 1.5em;
 } 
 
 #social-media-text {
-  font-family: "Caveat", sans-serif;
-  font-weight: 700;
+  font-family: "Delius", sans-serif;
   font-size: 1.25em;
 }
 
 details {
   padding: 15px;
   background-color: rgba(05, 246, 115, 0);
-  font-family: "Caveat", sans-serif;
+  font-family: "Delius", sans-serif;
+  font-size: 1.2em;
+}
+
+details summary {
   font-weight: 700;
-  font-size: 1.75em;
 }
 
 .col-6, .col-lg-4 {
@@ -205,9 +207,9 @@ details {
       
 @media screen and (max-width: 1200px) {
   .nav-bar-pos {
-    position: absolute;border-start-end-radius: ;
+    position: absolute;
     top: 18dvh;
-    left: 58%;
+    left: 55%;
   }
 
   .title-details {
@@ -302,5 +304,33 @@ details {
 
   #about-tracey-text {
     font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-design {
+    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    height: 20dvh;
+    width: 100%;
+  }
+
+  .title-details {
+    color: rgb(246, 187, 30);
+    font-family: "Caveat", sans-serif;
+    font-weight: 600;
+    font-size: 2.0em;
+    position: absolute;
+  }
+
+  .nav-bar-pos {
+    position: absolute;
+    top: 14dvh;
+    left: 5%;
+  }
+
+  .footer-design {
+    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    height: 25dvh;
+    width: 100%;
   }
 }
