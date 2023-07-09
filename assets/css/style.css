@@ -196,11 +196,7 @@ details {
   }
 
   #about-tracey-text {
-    background-color: rgba(05, 246, 115, 0.15);
-    height: 60dvh;
-    font-family: "Caveat", sans-serif;
-    font-weight: 700;
-    font-size: 1.6em;
+    font-size: 1.25em;
   }
 }
       
@@ -218,11 +214,7 @@ details {
   }
   
   #about-tracey-text {
-    background-color: rgba(05, 246, 115, 0.15);
-    height: 60dvh;
-    font-family: "Caveat", sans-serif;
-    font-weight: 700;
-    font-size: 1.85em;
+    font-size: 1.45em;
   }
 }
 
