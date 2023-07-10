@@ -2,7 +2,6 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap'); 
 
-
 /* ---- basic header/footer and title design  ---- */
 
 .header-design {
@@ -16,7 +15,6 @@
   font-family: "Caveat", sans-serif;
   font-weight: 600;
   font-size: 4.33em;
-  position: absolute;
 }
     
 .footer-design {
@@ -52,7 +50,7 @@ li a {
   color: rgb(235, 21, 108);
   display: block;
   padding: 8px;
-  text-decoration: none;
+  
 }
 
 ul {
@@ -61,14 +59,13 @@ ul {
   padding: 0;
 }
 
-#plain-text {
+.plain-text {
   text-decoration: none;
 }
-
 /* ---- styling details for home page ---- */
 
 #image-settings {
-  height: 60dvh;
+  min-height: 60dvh;
   width: 100%;
   object-fit: cover;
 }
@@ -81,20 +78,13 @@ ul {
 
 /* ---- styling details for gallery page ---- */
 
-#photo {
-  background-color: rgba(05, 246, 115, 0.15);
-  clear: both;
-  line-height:0;
-  column-count: 4;
-  column-gap: 0px;
-}
-
 img {
   width: 100%;
 }
 
 .grey {
   filter: grayscale(100%);
+  transition-duration: 1.0s;
 }
 
 .grey:hover {
@@ -102,33 +92,10 @@ img {
   transition-duration: 1.0s;
 }
 
-
-/* ---- left/right styling details for contact page ---- */
-
-.contact-me-style {
-  background-color: rgba(05, 246, 115, 0.15);
-  height: 60dvh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* ---- contact me page text styling details ---- */
-
-#email-me-style {
-  color: rgb(0, 0, 0);
-  font-family: "Delius", sans-serif;
-  font-weight: 400;
-  font-size: 2em;
-}
 
 #email-text-style {
   color: rgb(235, 21, 108);
-  font-family: "Delius", sans-serif;
-  font-size: 1.5em;
-} 
-
-#social-media-text {
   font-family: "Delius", sans-serif;
   font-size: 1.25em;
 }
@@ -144,18 +111,15 @@ details summary {
   font-weight: 700;
 }
 
-.col-6, .col-lg-4 {
+.all-green-background {
   background-color: rgba(05, 246, 115, 0.15);
-}
-
-.container-fluid {
-  background-color: rgba(05, 246, 115, 0.15);
+  min-height: 100dvh;
 }
 
 /* ---- makes google maps responsive ---- */
 
 .google-map {
-  padding-bottom: 25%;
+  padding: 25%;
   position: relative;
 }
 
@@ -201,7 +165,7 @@ details summary {
   }
 
   #about-tracey-text {
-    font-size: 1.45em;
+    font-size: 1.25em;
   }
 }
       
@@ -219,7 +183,7 @@ details summary {
   }
   
   #about-tracey-text {
-    font-size: 1.30em;
+    font-size: 1.1em;
   }
 }
 
@@ -235,15 +199,6 @@ details summary {
     top: 4dvh;
     left: 15%;
   }
-
-  .contact-me-style {
-    background-color: rgba(05, 246, 115, 0.15);
-    height: 48dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } 
-
   #about-tracey-text {
     font-size: 1.25em;
   }
@@ -274,10 +229,6 @@ details summary {
     position: absolute;
     top: 4dvh;
     left: 5%;
-  }
-
-  .contact-me-style {
-    height: 65dvh;
   }
 }
 
