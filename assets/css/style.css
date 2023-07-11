@@ -10,12 +10,12 @@
     width: 100%;
   }
 
-.title-details {
-  color: rgb(246, 187, 30);
-  font-family: "Caveat", sans-serif;
-  font-weight: 600;
-  font-size: 4.33em;
-}
+  .title-details {
+    color: rgb(246, 187, 30);
+    font-family: "Caveat", sans-serif;
+    font-weight: 600;
+    font-size: 3.0em;
+  }
     
 .footer-design {
   background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
@@ -24,7 +24,7 @@
 }
 
 .fa-icon-col {
-  color: rgb(24, 119, 242);
+  color: rgb(25, 97, 227);
 }
 
 #footer-text {
@@ -36,7 +36,7 @@
 
 /* ---- navbar details ---- */
 
-.nav-bar-pos {
+.nav-bar-style {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
@@ -95,8 +95,11 @@ img {
 #email-text-style {
   color: rgb(24, 119, 242);
   font-family: "Delius", sans-serif;
+  font-weight: 600;
   font-size: 1.25em;
 }
+
+
 
 details {
   padding: 15px;
@@ -119,92 +122,63 @@ details summary {
   object-fit: cover;
 }
 
-/* ---- makes google maps responsive ---- */
-
-.google-map iframe {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
-}
-
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
 
 
 
 @media screen and (min-width: 1500px) {
-  .nav-bar-pos {
-    position: absolute;
-    top: 19dvh;
-    left: 65%;
+  #about-tracey-text {
+    font-size: 1.3em;
   }
 
   .title-details {
-    font-size: 5.5em;
-    position: absolute;
-    top: 4dvh;
-    left:22%;
+    font-size: 5.0em;
   }
 
-  #about-tracey-text {
-    font-size: 1.3em;
+  .nav-bar-style {
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 1499px) {
-  .nav-bar-pos {
-    position: absolute;
-    top: 18dvh;
-    left: 60%;
+  #about-tracey-text {
+    font-size: 1.15em;
   }
 
   .title-details {
-    font-size: 4.5em;
-    position: absolute;
-    top: 4dvh;
-    left:22%;
+    font-size: 5.0em;
   }
 
-  #about-tracey-text {
-    font-size: 1.15em;
+  .nav-bar-style {
+    font-size: 2em;
   }
 }
       
 @media screen and (max-width: 1200px) {
-  .nav-bar-pos {
-    position: absolute;
-    top: 18dvh;
-    left: 55%;
+  #about-tracey-text {
+    font-size: 1em;
   }
 
   .title-details {
-    font-size: 4.0em;
-    position: absolute;
-    top: 4dvh;
-    left:22%;
+    font-size: 5.0em;
   }
-  
-  #about-tracey-text {
-    font-size: 1.02em;
+
+  .nav-bar-style {
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .nav-bar-pos {
-    position: absolute;
-    top: 19dvh;
-    left: 55%;
+    #about-tracey-text {
+    font-size: 1.25em;
   }
 
   .title-details {
-    font-size: 4.0em;
-    position: absolute;
-    top: 4dvh;
-    left: 18%;
+    font-size: 5.0em;
   }
-  #about-tracey-text {
-    font-size: 1.25em;
+
+  .nav-bar-style {
+    font-size: 2em;
   }
 }
 
@@ -216,23 +190,11 @@ details summary {
   }
 
   .title-details {
-    color: rgb(246, 187, 30);
-    font-family: "Caveat", sans-serif;
-    font-weight: 600;
     font-size: 4.0em;
-    position: absolute;
   }
 
-  .nav-bar-pos {
-    position: absolute;
-    top: 14dvh;
-    left: 53%;
-  }
-
-  .title-details {
-    position: absolute;
-    top: 4dvh;
-    left: 5%;
+  .nav-bar-style {
+    font-size: 1.75em;
   }
 
   #about-tracey-text {
@@ -249,19 +211,11 @@ details summary {
   }
 
   .title-details {
-    color: rgb(246, 187, 30);
-    font-family: "Caveat", sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-    position: absolute;
-    top: 3dvh;
-    left: 10%;
+    font-size: 3.0em;
   }
 
-  .nav-bar-pos {
-    position: absolute;
-    top: 13dvh;
-    left: 7%;
+  .nav-bar-style {
+    font-size: 1.75em;
   }
 
   .footer-design {
@@ -283,17 +237,11 @@ details summary {
   }
 
   .title-details {
-    color: rgb(246, 187, 30);
-    font-family: "Caveat", sans-serif;
-    font-weight: 600;
     font-size: 2.0em;
-    position: absolute;
   }
 
-  .nav-bar-pos {
-    position: absolute;
-    top: 13dvh;
-    left: 3%;
+  .nav-bar-style {
+    font-size: 1em;
   }
 
   .footer-design {
@@ -307,24 +255,11 @@ details summary {
   }
 }
 
-  @media screen and (max-height: 550px) {
+  @media screen and (max-height: 600px) {
     .header-design {
       background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
       height: 35dvh;
       width: 100%;
-    }
-
-    .title-details {
-      font-size: 2.5em;
-      position: absolute;
-      top: 4dvh;
-      left:10%;
-    }
-
-    .nav-bar-pos {
-      position: absolute;
-      top: 20dvh;
-      left: 50%;
     }
   
     .footer-design {
@@ -335,6 +270,14 @@ details summary {
 
     #about-tracey-text {
       font-size: 1em;
+    }
+
+    .title-details {
+      font-size: 3em;
+    }
+
+    .nav-bar-style {
+      font-size: 1.2em;
     }
 
     #image-settings-tracey {
