@@ -99,8 +99,6 @@ img {
   font-size: 1.25em;
 }
 
-
-
 details {
   padding: 15px;
   font-family: "Delius", sans-serif;
@@ -123,8 +121,6 @@ details summary {
 }
 
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
-
-
 
 @media screen and (min-width: 1500px) {
   #about-tracey-text {
@@ -254,6 +250,8 @@ details summary {
     font-size: 0.75em;
   }
 }
+
+/* ---- media query to enable correct display when mobile device is in landscape mode ---- */
 
   @media screen and (max-height: 600px) {
     .header-design {
