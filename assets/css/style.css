@@ -42,12 +42,6 @@ a :hover {
 
 /* ---- navbar details ---- */
 
-.nav-bar-style {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-}
-
 li {
   float: left;
 }
@@ -63,6 +57,9 @@ ul {
 }
 
 .nav-btn-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
   border: none;
   background-color: rgb(24, 119, 242);
   color: rgb(246, 187, 30);
@@ -77,6 +74,11 @@ li :hover {
   background-color: rgb(246, 187, 30);
   color: rgb(175, 08, 235);
   transition-duration: 1.0s;
+}
+
+.active {
+  background-color: rgb(246, 187, 30);
+  color: rgb(175, 08, 235);
 }
 
 /* ---- styling details for home page ---- */
