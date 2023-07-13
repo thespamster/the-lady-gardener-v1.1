@@ -136,9 +136,28 @@ details summary {
 
 #email-text-style {
   font-family: "Delius", sans-serif;
-  font-size: 1.25em;
+  font-size: 4em;
   font-weight: 600;
   color: rgb(24, 119, 242);
+}
+
+#email-textbox-details {
+  height: 60dvh;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-responsive {
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:60dvh;
+  width:100%;
+  position:absolute;
 }
 
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
@@ -300,6 +319,10 @@ details summary {
     }
 
     #image-settings-tracey {
+      display: none;
+    }
+
+    #email-text-style {
       display: none;
     }
   }
