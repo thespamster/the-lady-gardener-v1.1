@@ -93,6 +93,35 @@ li :hover {
   font-family: "Delius", sans-serif;
 }
 
+/* ---- hero-image & zoom animation ---- */
+
+.hero-outer {
+  height: 60dvh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  background: url('../img/main_garden_pic.webp') no-repeat center center;
+  background-size: cover;
+  animation-name: hero-zoom;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.15);
+  }
+}
+
 /* ---- styling details for gallery page ---- */
 
 img {
