@@ -84,6 +84,13 @@ li :hover {
   width: 50%;
 }
 
+/* ---- sets the default background to pale green on all webpages ---- */
+
+.all-green-background {
+  background-color: rgba(05, 246, 115, 0.15);
+  min-height: 100dvh;
+}
+
 /* ---- homepage-image & zoom animation ---- */
 
 .image-outer {
@@ -126,7 +133,7 @@ li :hover {
   align-items: center;
   
 
-/* ---- from https://css.glass ---- */
+/* ---- from https://css.glass creates a 'glass' effect ---- */
 
 background: rgba(131, 186, 248, 0.09);
 border-radius: 50%;
@@ -169,11 +176,6 @@ details {
 
 details summary {
   font-weight: 700;
-}
-
-.all-green-background {
-  background-color: rgba(05, 246, 115, 0.15);
-  min-height: 100dvh;
 }
 
 #image-settings-tracey {

@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+
+        <!--  link to custom css code / bootstrap v5.3 cdn & font-awesome v4.7 cdn -->
+
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,6 +14,9 @@
     <body>
         <div class="container-fluid all-green-background">
             <header>
+
+                <!-- bootstrap to set width of header and how flexbox behaves / centers text & navbar -->
+
                 <div class="row justify-content-center">
                     <div class="col-12 d-flex flex-column align-items-center justify-content-center header-design">
                         <div class="title-details">Tracey the Gardengal</div>
@@ -24,8 +30,17 @@
                     </div> 
                 </div>
             </header>
+
+            <!-- bootstrap to set behaviour of gallery ie 2 columns on mobile displays & 4 columns on larger laptop/desktop displays -->
+
             <div class="row row-cols-2 row-cols-lg-4 justify-content-center">
+
+                <!-- each item is set as a bootstrap column item and guttering is removed so they will stack with no gaps between items  -->
+
                 <div class="col gx-0">
+
+                    <!-- all images are webp for smaller filesizes and faster page loading. custom css to render images in b&w  -->
+
                     <img class="grey col" src="assets/img/tracey_tree.webp" alt="tracey stood in front of a tree">
                     <details>
                         <summary>Welcome</summary>
@@ -60,7 +75,7 @@
                     <details>
                         <summary>Rhododendron</summary>
                         <p class="scientific-name">Rhododendron</p>
-                        <p>A great plant for a splash of spring colour. Really like lots of rain and light shade.</p>
+                        <p>A great plant for a splash of spring colour. Really likes lots of rain and light shade.</p>
                     </details>
                 </div>
                 <div class="col gx-0">
@@ -300,7 +315,10 @@
                             drained soil.</p>
                     </details>
                 </div>
-            </div>   
+            </div>
+            
+            <!-- footer behaviour set with bootstrap and custom css. social media icons from font-awesome.  -->
+
             <footer>
                 <div class="row justify-content-center">
                     <nav class="col-12 col d-flex align-items-center justify-content-center footer-design" id="footer-nav" aria-label="Footer">
@@ -316,6 +334,9 @@
                 </div>
             </footer>
         </div>
+
+        <!-- bootstrap v5.3 javascript cdn. placed at end of code to prevent it loading before the html does  -->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>

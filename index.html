@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+
+<!--  link to custom css code / bootstrap v5.3 cdn & font-awesome v4.7 cdn -->
+
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,9 +14,15 @@
     <body>
         <div class="container-fluid all-green-background">
             <header>
+
+                <!-- bootstrap to set width of header and how flexbox behaves / centers text & navbar -->
+
                 <div class="row justify-content-center">
                     <div class="col-12 d-flex flex-column align-items-center justify-content-center header-design">
                         <div class="title-details">Tracey the Gardengal</div>
+
+                        <!--  navbar bootstrap buttons and what they link to -->
+
                         <nav id="main-nav" aria-label="Main">
                             <ul>
                                 <li><button onclick="window.location.href='index.html';" class="nav-btn-style active">home</button></li>
@@ -24,27 +33,41 @@
                     </div> 
                 </div>
             </header>
+
+            <!--  bootstrap to set behaviour of homepage on mobiles and desktop -->
+
             <div class="row d-flex align-items-center ">
                 <div class="col-12 col-lg-6 gx-0">  
                     <div class="image-outer">
                         <div class="image-garden" role="img" aria-label="tracey's garden">
                         </div>
+
+                        <!-- clever little 'frosted glass' effect for year. credit given in style.css.  -->
+
                         <p id="image-text-glass">2023</p>
                     </div>   
                 </div>
+
+                <!-- about tracey text. behaviour on mobiles & desktop set with bootstrap and custom css -->
+
                 <section role="contentinfo" aria-label="A description of Tracey's love of gardening and why she started her business." class="col col-lg-4 p-4 d-flex flex-column align-items-center justify-content-center" id="about-tracey-text">
-                    <p id="hide-para-sm">Hi, I'm Tracey the gardengal and welcome to my website. I have lived in and around Buckfastleigh in the beautiful county of Devon for quite 
+                    <p id="hide-para-sm">
+                        Hi, I'm Tracey the gardengal and welcome to my website. I have lived in and around Buckfastleigh in the beautiful county of Devon for quite 
                         a few years now and inspired by the countryside I decided to change my life and become a gardener.
                     </p>
                     <p>
                         Gardening is such a wonderful way to spend my days and I love helping people achieve their garden dreams. Plus there's always time for a nice cup of tea 
                         and maybe a suggestion of cake. 
                     </p>
-                    <p>Feel free to check out the gallery where there's pictures of some of my favourite plants and flowers. Reach out to me via email in the contact 
+                    <p>
+                        Feel free to check out the gallery where there's pictures of some of my favourite plants and flowers. Reach out to me via email in the contact 
                         section or preferably message me via Facebook and Instagram.
                     </p>    
                 </section>
             </div>
+
+            <!-- footer behaviour set with bootstrap and custom css. social media icons from font-awesome.  -->
+
             <footer>
                 <div class="row justify-content-center">
                     <nav class="col-12 d-flex align-items-center justify-content-center footer-design" id="footer-nav" aria-label="Footer">
@@ -52,7 +75,6 @@
                             <i class="fa fa-facebook fa-4x fa-icon-col" aria-hidden="true"></i>
                         </a>
                         <span id="footer-text">Click the icons to check out my Facebook & Instagram</span>
-                        
                         <a class="icon-button"  href="https://www.instagram.com/shirleymental/" target="_blank" aria-label="Go to my instagram page (opens in a new tab)">
                             <i class="fa fa-instagram fa-4x fa-icon-col" aria-hidden="true" ></i>
                         </a>
@@ -60,6 +82,9 @@
                 </div>
             </footer>
         </div>
+
+        <!-- bootstrap v5.3 javascript cdn. placed at end of code to prevent it loading before the html does  -->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>
