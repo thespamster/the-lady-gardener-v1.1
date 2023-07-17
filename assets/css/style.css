@@ -126,7 +126,7 @@ li :hover {
   align-items: center;
   
 
-/* ---- From https://css.glass ---- */
+/* ---- from https://css.glass ---- */
 
 background: rgba(131, 186, 248, 0.09);
 border-radius: 50%;
@@ -152,6 +152,13 @@ img {
   transition-duration: 1.0s;
 }
 
+.scientific-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* ---- contact me page text styling details ---- */
 
 details {
@@ -170,7 +177,7 @@ details summary {
 }
 
 #image-settings-tracey {
-  height: 60dvh;
+  height: 65dvh;
   width: 100%;
   object-fit: cover;
 }
@@ -196,7 +203,7 @@ details summary {
 .map-responsive iframe {
   left:0;
   top:0;
-  height:60dvh;
+  height:65dvh;
   width:100%;
   position:absolute;
 }
