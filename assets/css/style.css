@@ -350,7 +350,7 @@ details summary {
   }
 }
 
-/* ---- media query to enable correct display when mobile device is in landscape mode ---- */
+/* ---- media query to enable correct display when mobile device is in landscape mode or display has a lower y resolution ---- */
 
 @media screen and (max-height: 768px) {
   .header-design {
