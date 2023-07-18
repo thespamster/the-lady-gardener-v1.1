@@ -40,7 +40,7 @@ a :hover {
   padding: 30px;
 }
 
-/* ---- navbar details ---- */
+/* ---- navbar details adds custom detailing to bootstrap button code ---- */
 
 li {
   float: left;
@@ -76,7 +76,7 @@ li :hover {
   color: rgb(175, 08, 235);
 }
 
-/* ---- styling details for home page ---- */
+/* ---- styling details for home page text ---- */
 
 #about-tracey-text {
   font-family: "Delius", sans-serif;
@@ -214,7 +214,7 @@ details summary {
 
 @media screen and (min-width: 1500px) {
   #about-tracey-text {
-    font-size: 1.3em;
+    font-size: 1.25em;
   }
 
   .title-details {
@@ -228,7 +228,7 @@ details summary {
 
 @media screen and (max-width: 1499px) {
   #about-tracey-text {
-    font-size: 1.15em;
+    font-size: 1.25em;
   }
 
   .title-details {
@@ -241,24 +241,12 @@ details summary {
 }
       
 @media screen and (max-width: 1200px) {
-  #about-tracey-text {
-    font-size: 1em;
-  }
-
-  .title-details {
-    font-size: 5.0em;
-  }
-
   .nav-btn-style {
     font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 992px) {
-    #about-tracey-text {
-    font-size: 1.25em;
-  }
-
   .title-details {
     font-size: 5.0em;
   }
@@ -268,7 +256,7 @@ details summary {
   }
 
   #about-tracey-text {
-    font-size: 1.15em;
+    font-size: 1.25em;
     min-height: 35dvh;
   }
 }
