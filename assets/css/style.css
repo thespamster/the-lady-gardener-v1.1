@@ -15,7 +15,6 @@
     font-family: "Caveat", sans-serif;
     font-weight: 600;
     font-size: 3.0em;
-    font-display: swap;
   }
     
 .footer-design {
@@ -38,7 +37,6 @@ a :hover {
   color: rgb(24, 119, 242);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-display: swap;
   padding: 30px;
 }
 
@@ -57,7 +55,6 @@ ul {
 .nav-btn-style {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-display: swap;
   border: none;
   background-color: rgb(24, 119, 242);
   color: rgb(246, 187, 30);
@@ -83,7 +80,6 @@ li :hover {
 
 #about-tracey-text {
   font-family: "Delius", sans-serif;
-  font-display: swap;
   height: 65dvh;
   width: 50%;
 }
@@ -132,7 +128,6 @@ li :hover {
   color: rgb(0, 0, 0);
   font-family: "Delius", sans-serif;
   font-weight: 700;
-  font-display: swap;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -169,7 +164,6 @@ img {
   font-size: 0.9em;
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
 }
 
 /* ---- contact me page text styling details ---- */
@@ -178,7 +172,6 @@ details {
   padding: 15px;
   font-family: "Delius", sans-serif;
   font-size: 1.2em;
-  font-display: swap;
 }
 
 details summary {
@@ -196,7 +189,6 @@ details summary {
   font-family: "Delius", sans-serif;
   font-size: 4em;
   font-weight: 600;
-  font-display: swap;
 }
 
 #email-textbox-details {
