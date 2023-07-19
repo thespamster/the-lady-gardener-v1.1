@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="the homepage of tracey the gardengal's website. includes an image of her garden in full bloom taken this year 2023 and a short bio.">
+
+<!--  link to custom css code / bootstrap v5.3 cdn & font-awesome v4.7 cdn -->
+
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Gardengal-Home</title>
+    </head>
+    <body>
+        <div class="container-fluid all-green-background">
+            <header>
+
+                <!-- bootstrap to set width of header and how flexbox behaves / centers text & navbar -->
+
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center header-design">
+                        <div class="title-details">Tracey the Gardengal</div>
+
+                        <!--  navbar bootstrap buttons and what they link to -->
+
+                        <nav id="main-nav" aria-label="Main">
+                            <ul>
+                                <li><button onclick="window.location.href='index.html';" class="nav-btn-style active">home</button></li>
+                                <li><button onclick="window.location.href='gallery.html';" class="nav-btn-style">gallery</button></li>
+                                <li><button onclick="window.location.href='garden.html';" class="nav-btn-style">garden</button></li>
+                                <li><button onclick="window.location.href='contact.html';" class="nav-btn-style">contact</button></li>
+                            </ul>
+                        </nav>
+                    </div> 
+                </div>
+            </header>
+            <div class="bg-color">
+                <div class="photo-container">
+
+
+                    <div class="photo-box1">
+                      <div class="photo-border rotate-left">
+                        <div class="photo" photo-caption="lawn removed">
+                        <img src="assets\img\garden_gallery1.webp"/>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="photo-box2"> 
+                      <div class="photo-border rotate-right">
+                        <div class="photo" photo-caption="borders built">
+                        <img src="assets\img\garden_gallery2.webp"/>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="photo-box3">
+                      <div class="photo-border rotate-left">
+                        <div class="photo" photo-caption="sand & stone">
+                        <img src="assets\img\garden_gallery3.webp"/>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="photo-box4">
+                      <div class="photo-border rotate-right">
+                        <div class="photo" photo-caption="almost finished">
+                        <img src="assets\img\garden_gallery4.webp"/>
+                        </div>
+                      </div>
+                    </div>
+              
+                    
+                  
+                  
+                </div>
+        
+
+            
+                
+
+                
+            </div>
+                <!-- footer behaviour set with bootstrap and custom css. social media icons from font-awesome.  -->
+
+                <footer>
+                    <div class="row justify-content-center">
+                        <nav class="col-12 d-flex align-items-center justify-content-center footer-design" id="footer-nav" aria-label="Footer">
+                            <a href="https://www.facebook.com/tracey.hurstbrown" target="_blank" aria-label="Go to my facebook page (opens in a new tab)">
+                                <i class="fa fa-facebook fa-4x fa-icon-col" aria-hidden="true"></i>
+                            </a>
+                            <span id="footer-text">Click the icons to check out my Facebook & Instagram</span>
+                            <a class="icon-button"  href="https://www.instagram.com/shirleymental/" target="_blank" aria-label="Go to my instagram page (opens in a new tab)">
+                                <i class="fa fa-instagram fa-4x fa-icon-col" aria-hidden="true" ></i>
+                            </a>
+                        </nav>
+                    </div>
+                </footer>
+        
+
+        <!-- bootstrap v5.3 javascript cdn. placed at end of code to prevent it loading before the html does  -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
