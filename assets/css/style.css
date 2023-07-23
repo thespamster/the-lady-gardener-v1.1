@@ -166,23 +166,13 @@ img {
   font-style: italic;
 }
 
-/* ---- TEST CODE FOR GARDEN BUILD ---- */
+/* ---- garden build photos ---- */
 
 .bg-color {
-  
   width: 100%;
   min-height: 100dvh;
-  
-  background-color: rgba(05, 246, 115, 0.15);
-  
-}
-
-.photo-container {
-  min-height: 100dvh;
-  width: 100%;
   position: relative;
-  overflow: scroll;
-  
+  overflow: hidden
 }
 
 .photo-box1 {
@@ -223,19 +213,18 @@ img {
   padding: 15px;
   background-color: rgb(245, 245, 248);
   box-shadow: 5px 10px 10px darkgrey;
-  
 }
 
 .photo:after {
-    content: attr(photo-caption);
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: calc(100% - 50px);
-    padding: 10px;
-    font-size: 2em;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
+  content: attr(photo-caption);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: calc(100% - 50px);
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .rotate-left {
@@ -245,7 +234,6 @@ img {
 .rotate-right {
   transform: rotate(15deg);
 }
-
 
 /* ---- contact me page text styling details ---- */
 
