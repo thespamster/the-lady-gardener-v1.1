@@ -221,7 +221,7 @@ details summary {
 }
 
 #email-textbox-details {
-  height: 60dvh;
+  height: 65dvh;
   align-items: center;
   justify-content: center;
 }
@@ -385,11 +385,11 @@ details summary {
   
   .footer-design {
     background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
-    height: 30dvh;
+    height: 25dvh;
     width: 100%;
   }
 
-  #image-settings-tracey {
+  #hide-para-sm {
     display: none;
   }
 
@@ -423,6 +423,14 @@ details summary {
     display: none;
   }
 
+  .hide-email-details {
+    display: none;
+  }
+
+  #hide-para-sm {
+    display: none;
+  }
+
   .title-details {
     font-size: 2.15em;
   }
@@ -434,14 +442,6 @@ details summary {
 
   .nav-btn-style {
     font-size: 0.65em;
-  }
-
-  #hide-email-icon {
-    display: none;
-  }
-
-  #hide-para-sm {
-    display: none;
   }
 }
 
@@ -469,6 +469,14 @@ details summary {
 
   .nav-btn-style {
     font-size: 0.55em;
+  }
+
+  #image-settings-tracey {
+    display: none;
+  }
+
+  .hide-email-details {
+    display: none;
   }
 
   #hide-para-sm {
