@@ -168,43 +168,8 @@ img {
 
 /* ---- garden build photos ---- */
 
-.bg-color {
-  width: 100%;
-  min-height: 100dvh;
-  position: relative;
+.photo-container {
   overflow: hidden
-}
-
-.photo-box1 {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-75%,-100%);
-}
-
-.photo-box2 {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(0%,-55%);
-}
-
-.photo-box3 {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-75%,20%);
-}
-
-.photo-box4 {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(0%,60%);
 }
 
 .photo-border {
@@ -215,24 +180,20 @@ img {
   box-shadow: 5px 10px 10px darkgrey;
 }
 
-.photo:after {
-  content: attr(photo-caption);
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: calc(100% - 50px);
-  padding: 10px;
-  font-size: 2em;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-.rotate-left {
+.rotate-left-15 {
   transform: rotate(-15deg);
 }
 
-.rotate-right {
-  transform: rotate(15deg);
+.rotate-left-23 {
+  transform: rotate(-23deg);
+}
+
+.rotate-right-18 {
+  transform: rotate(18deg);
+}
+
+.rotate-right-32 {
+  transform: rotate(32deg);
 }
 
 /* ---- contact me page text styling details ---- */
