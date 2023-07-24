@@ -376,7 +376,7 @@ details summary {
 
 /* ---- media query to enable correct display when mobile device is in landscape mode or display has a lower y resolution ---- */
 
-@media screen and (max-height: 768px) and (min-height: 577px){
+@media screen and (max-height: 767px) and (min-height: 577px){
   .header-design {
     background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
     height: 35dvh;
