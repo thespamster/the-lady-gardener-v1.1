@@ -258,7 +258,7 @@ details summary {
 
 @media screen and (max-width: 1499px) {
   #about-tracey-text {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 
   .title-details {
@@ -301,7 +301,7 @@ details summary {
   }
 
   #about-tracey-text {
-    font-size: 1.15em;
+    font-size: 1em;
     max-height: 40dvh;
   }
 
@@ -407,6 +407,10 @@ details summary {
 
   #about-tracey-text {
     min-height: 65dvh;
+  }
+
+  #hide-para-sm {
+    display: none;
   }
 }
 
