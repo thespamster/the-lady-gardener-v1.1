@@ -5,36 +5,36 @@
 /* ---- basic header/footer and title design  ---- */
 
 .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 25%, rgb(246, 187, 30));
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 25%, rgb(240, 206, 53));
     height: 25dvh;
     width: 100%;
   }
 
   .title-details {
-    color: rgb(246, 187, 30);
+    color: rgb(3, 3, 3);
     font-family: "Caveat", sans-serif;
     font-weight: 600;
     font-size: 3.0em;
   }
     
 .footer-design {
-  background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+  background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
   height: 10dvh;
   width: 100%;
 }
 
 a {
-  color: rgb(25, 97, 227);
+  color: rgb(0, 0, 0);
   transition-duration: 1.0s;
 }
 
 a :hover {
-  color: rgb(175, 08, 235);
+  color: rgb(0, 128, 251);
   transition-duration: 1.0s;
 }
 
 #footer-text {
-  color: rgb(24, 119, 242);
+  color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding: 30px;
@@ -56,8 +56,8 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   border: none;
-  background-color: rgb(24, 119, 242);
-  color: rgb(246, 187, 30);
+  background-color: rgb(240, 206, 53);
+  color: rgb(0, 0, 0);
   transition-duration: 1.0s;
   text-align: center;
   border-radius: 12%;
@@ -66,14 +66,14 @@ ul {
 }
 
 li :hover {
-  background-color: rgb(246, 187, 30);
-  color: rgb(175, 08, 235);
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 206, 53);
   transition-duration: 1.0s;
 }
 
 .active {
-  background-color: rgb(246, 187, 30);
-  color: rgb(175, 08, 235);
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 206, 53);
 }
 
 /* ---- styling details for home page text ---- */
@@ -213,8 +213,13 @@ details summary {
   object-fit: cover;
 }
 
+.fa-icon-col {
+  color: rgb(0, 0, 0);
+  transition-duration: 1.0s;
+}
+
 .email-text-style {
-  color: rgb(24, 119, 242);
+  color: rgb(0, 0, 0);
   font-family: "Delius", sans-serif;
   font-size: 4em;
   font-weight: 600;
@@ -239,17 +244,40 @@ details summary {
   position:absolute;
 }
 
+/* ---- back to top button on gallery page ---- */
+
+.top-btn-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(240, 206, 53);
+  background: rgb(0, 0, 0);
+  transition-duration: 1.0s;
+  border-radius: 12%;
+  padding: 4px;
+  margin: 4px;
+  position: sticky;
+  bottom: 20px;
+}
+
+.top-btn-style:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background: rgb(240, 206, 53);
+  transition-duration: 1.0s;
+}
+
 /* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
 
 @media screen and (max-width: 400px) {
   .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
     height: 20dvh;
     width: 100%;
   }
 
   .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
     height: 25dvh;
     width: 100%;
   }
@@ -274,19 +302,19 @@ details summary {
 
 @media screen and (max-width: 576px) and (min-width: 401px){
   .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
-    height: 25dvh;
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
+    height: 20dvh;
     width: 100%;
   }
 
   .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
     height: 15dvh;
     width: 100%;
   }
 
   .title-details {
-    font-size: 1.75em;
+    font-size: 2.5em;
   }
 
   #about-tracey-text {
@@ -295,13 +323,13 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 0.55em;
+    font-size: 0.85em;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 577px){
   .header-design {
-  background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 15%, rgb(246, 187, 30));
+  background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 15%, rgb(240, 206, 53));
   }
 
   .title-details {
@@ -314,7 +342,7 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
@@ -328,7 +356,7 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -342,7 +370,7 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -356,7 +384,7 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -370,7 +398,7 @@ details summary {
   }
 
   .nav-btn-style {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 }
 
@@ -378,13 +406,13 @@ details summary {
 
 @media screen and (max-height: 767px) and (min-height: 577px){
   .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
     height: 35dvh;
     width: 100%;
   }
   
   .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
     height: 25dvh;
     width: 100%;
   }
@@ -408,13 +436,13 @@ details summary {
 
 @media screen and (max-height: 576px) and (min-height: 401px) {
   .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
     height: 35dvh;
     width: 100%;
   }
   
   .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
     height: 30dvh;
     width: 100%;
   }
@@ -447,13 +475,13 @@ details summary {
 
 @media screen and (max-height: 400px) {
   .header-design {
-    background-image: linear-gradient(to bottom right, rgb(175, 08, 235) 5%, rgb(246, 187, 30));
+    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
     height: 35dvh;
     width: 100%;
   }
   
   .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(246, 187, 30) 15%, rgb(175, 08, 235));
+    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
     height: 30dvh;
     width: 100%;
   }
