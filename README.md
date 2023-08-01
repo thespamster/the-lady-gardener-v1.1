@@ -1,6 +1,4 @@
-﻿<meta charset="UTF-8">
-
-# Tracey the Gardengal
+﻿# Tracey the Gardengal
 
 ![Header](assets/img/am_i_responsive.png)
 
@@ -188,7 +186,7 @@ The Github repository can be found here - [thespamster/the-lady-gardener](https:
 - The glass effect used on the homepage to highlight the year of the home page image courtesy of Glassism, [Creates a glass effect using CSS](https://css.glass)
 - The Facebook, Instagram & Email icons courtesy of Font Awesome, [Font Awesome v4.7 - Icons](https://fontawesome.com/v4/)
 
-- Other sites used to help with the build,
+Other sites used to help with the build,
 
 - To create the favicon for the title bar, [Convert.app](https://convert.app/)
 - To get the colour selection right, [Adobe Color - Colour Wheel](https://color.adobe.com/create/color-wheel)
