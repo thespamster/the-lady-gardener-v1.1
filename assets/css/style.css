@@ -2,168 +2,90 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap'); 
 
-/* ---- basic header/footer and title design  ---- */
+/* ---- new code for traceygardengal website ---- */
 
-.header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 25%, rgb(240, 206, 53));
-    height: 25dvh;
-    width: 100%;
-  }
-
-  .title-details {
-    color: rgb(3, 3, 3);
-    font-family: "Caveat", sans-serif;
-    font-weight: 600;
-    font-size: 3.0em;
-  }
-    
-.footer-design {
-  background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
-  height: 10dvh;
+body {
   width: 100%;
-}
-
-a {
-  color: rgb(0, 0, 0);
-  transition-duration: 1.0s;
-}
-
-a :hover {
-  color: rgb(0, 128, 251);
-  transition-duration: 1.0s;
-}
-
-#footer-text {
-  color: rgb(0, 0, 0);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  padding: 30px;
-}
-
-/* ---- navbar details adds custom detailing to bootstrap button code ---- */
-
-li {
-  float: left;
-}
-  
-ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 
-.nav-btn-style {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  border: none;
-  background-color: rgb(240, 206, 53);
-  color: rgb(0, 0, 0);
-  transition-duration: 1.0s;
-  text-align: center;
-  border-radius: 12%;
-  padding: 4px;
-  margin: 4px;
-}
-
-li :hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(240, 206, 53);
-  transition-duration: 1.0s;
-}
-
-.active {
-  background-color: rgb(0, 0, 0);
-  color: rgb(240, 206, 53);
-}
-
-/* ---- styling details for home page text ---- */
-
-#about-tracey-text {
-  font-family: "Delius", sans-serif;
-  height: 65dvh;
-  width: 50%;
-}
-
-/* ---- sets the default background to pale green on all webpages ---- */
-
-.all-green-background {
-  background-color: rgba(05, 246, 115, 0.15);
-  min-height: 100dvh;
-}
-
-/* ---- homepage-image & zoom animation ---- */
-
-.image-outer {
-  height: 65dvh;
+.home-image {
+  height: 100dvh;
   width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-garden {
-  height: 100%;
-  width: 100%;
-  background: url('../img/garden_image.webp') no-repeat center center;
+  padding: 5px;
+  background: url('/assets/img/garden_image.webp') no-repeat center center;
   background-size: cover;
-  animation-name: image-zoom;
-  animation-duration: 3.25s;
-  animation-fill-mode: forwards;
 }
 
-@keyframes image-zoom {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(1.15);
-  }
-}
-
-#image-text-glass {
-  position: absolute;
-  top: 1em;
-  left: 1em; 
-  height: 75px;
-  width: 75px;
-  color: rgb(0, 0, 0);
-  font-family: "Delius", sans-serif;
+.brand-font {
+  font-family: "Caveat", sans-serif;
   font-weight: 700;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  
-
-/* ---- from https://css.glass creates a 'glass' effect ---- */
-
-background: rgba(131, 186, 248, 0.09);
-border-radius: 50%;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(7px);
-border: 1px solid rgba(147, 216, 228, 0.69);
+  font-size: 2em !important;
 }
 
-/* ---- styling details for gallery page ---- */
+.navbar-color {
+  background-color: rgba(255, 255, 255, 0.40);
+  font-weight: 700;
+}
 
-img {
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#about-me-style {
+  width: 100%;
+  padding: 5px;
+  min-height: 25dvh;
+  font-size: 1rem;
+  background-color: rgba(72, 139, 96, 0.15);
+}
+
+.back-to-top { 
+  width: 100%;
+  height: 10dvh;
+}
+
+#tracey-quote {
+  font-family: "Caveat", sans-serif;
+  font-weight: 400;
+  font-size: calc(1em + 2vw);
+}
+
+.map-responsive {
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height:65dvh;
+  width:100%;
+  position:absolute;
+}
+
+.footer-style {
+  background-color: rgba(88, 90, 89, 0.15);
+  height: 2rem;
+  padding: 5px;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.background-flowers {
+  background: url('/assets/img/flowers.png') no-repeat right bottom;
+  background-size: 256px 256px;
+  height: 35dvh;
   width: 100%;
 }
 
-.grey {
-  filter: grayscale(100%);
-  transition-duration: 1.0s;
-}
 
-.grey:hover {
-  filter: none;
-  transition-duration: 1.0s;
-}
+/* ---- PREVIOUS CSS. DELETE WHAT ISNT NEEDED  ---- */
 
-.scientific-name {
-  font-family: "Roboto", sans-serif;
-  font-size: 0.9em;
-  font-weight: 700;
-  font-style: italic;
-}
 
 /* ---- garden build photos ---- */
 
@@ -231,257 +153,3 @@ details summary {
   justify-content: center;
 }
 
-.map-responsive {
-  position:relative;
-  height:0;
-}
-
-.map-responsive iframe {
-  left:0;
-  top:0;
-  height:65dvh;
-  width:100%;
-  position:absolute;
-}
-
-/* ---- back to top button on gallery page ---- */
-
-.top-btn-style {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: rgb(240, 206, 53);
-  background: rgb(0, 0, 0);
-  transition-duration: 1.0s;
-  border: none;
-  border-radius: 12%;
-  padding: 4px;
-  margin: 4px;
-  position: sticky;
-  bottom: 20px;
-}
-
-.top-btn-style:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  color: rgb(0, 0, 0);
-  background: rgb(240, 206, 53);
-  transition-duration: 1.0s;
-}
-
-/* ---- adjustments to header/footer, navbar & map @various breakpoints ----*/
-
-@media screen and (max-width: 400px) {
-  .header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
-    height: 20dvh;
-    width: 100%;
-  }
-
-  .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
-    height: 20dvh;
-    width: 100%;
-  }
-
-  .title-details {
-    font-size: 2.0em;
-  }
-
-  #about-tracey-text {
-    font-size: 0.75em;
-    max-height: 45dvh;
-  }
-
-  .nav-btn-style {
-    font-size: 0.75em;
-  }
-
-  #hide-para-sm {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 576px) and (min-width: 401px){
-  .header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
-    height: 25dvh;
-    width: 100%;
-  }
-
-  .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
-    height: 15dvh;
-    width: 100%;
-  }
-
-  .title-details {
-    font-size: 2.5em;
-  }
-
-  #about-tracey-text {
-    font-size: 0.9em;
-    max-height: 45dvh;
-  }
-
-  #hide-para-sm {
-    display: none;
-  }
-
-  .nav-btn-style {
-    font-size: 0.85em;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 577px){
-  .header-design {
-  background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 15%, rgb(240, 206, 53));
-  height: 20dvh;
-  }
-
-  .title-details {
-    font-size: 4.0em;
-  }
-
-  #about-tracey-text {
-    font-size: 1em;
-    max-height: 40dvh;
-  }
-
-  .nav-btn-style {
-    font-size: 1.25em;
-  }
-}
-
-@media screen and (max-width: 992px) and (min-width: 769px){
-  .title-details {
-    font-size: 5.0em;
-  }
-
-  #about-tracey-text {
-    font-size: 1.25em;
-  }
-
-  .nav-btn-style {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (max-width: 1200px) and (min-width: 993px){
-  #about-tracey-text {
-    font-size: 1.15em;
-  }
-
-  .title-details {
-    font-size: 5.0em;
-  }
-
-  .nav-btn-style {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (max-width: 1499px) and (min-width: 1201px){
-  #about-tracey-text {
-    font-size: 1.15em;
-  }
-
-  .title-details {
-    font-size: 5.0em;
-  }
-
-  .nav-btn-style {
-    font-size: 1.25em;
-  }
-}
-
-
-@media screen and (min-width: 1500px) {
-
-  .header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 15%, rgb(240, 206, 53));
-    height: 25dvh;
-    }
-
-  #about-tracey-text {
-    font-size: 1.25em;
-  }
-
-  .title-details {
-    font-size: 5.0em;
-  }
-
-  .nav-btn-style {
-    font-size: 1.75em;
-  }
-}
-
-/* ---- media query to enable correct display when mobile device is in landscape mode or display has a lower y resolution ---- */
-
-@media screen and (max-height: 767px) and (max-width: 375px){
-  .header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
-    height: 25dvh;
-    width: 100%;
-  }
-  
-  .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
-    height: 25dvh;
-    width: 100%;
-  }
-
-  #hide-para-sm {
-    display: none;
-  }
-
-  #about-tracey-text {
-    font-size: 0.8em;
-  }
-
-  .title-details {
-    font-size: 2.15em;
-  }
-
-  .nav-btn-style {
-    font-size: 0.75em;
-  }
-}
-
-@media screen and (max-height: 450px) {
-  .header-design {
-    background-image: linear-gradient(to bottom right, rgb(239, 0, 183) 5%, rgb(240, 206, 53));
-    height: 35dvh;
-    width: 100%;
-  }
-  
-  .footer-design {
-    background-image: linear-gradient(to bottom right, rgb(240, 206, 53) 15%, rgb(239, 0, 183));
-    height: 30dvh;
-    width: 100%;
-  }
-
-  .title-details {
-    font-size: 2.5em;
-  }
-
-  #about-tracey-text {
-    font-size: 0.8em;
-    min-height: 65dvh;
-  }
-
-  .nav-btn-style {
-    font-size: 0.85em;
-  }
-
-  #image-settings-tracey {
-    display: none;
-  }
-
-  .hide-email-details {
-    display: none;
-  }
-
-  #hide-para-sm {
-    display: none;
-  }
-}

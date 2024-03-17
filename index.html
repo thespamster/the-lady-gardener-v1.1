@@ -1,96 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="the homepage of tracey the gardengal's website. includes an image of her garden in full bloom taken this year 2023 and a short bio.">
 
-        <!--  link to custom css code / bootstrap v5.3 cdn & font-awesome v4.7 cdn -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description"
+    content="the homepage of tracey the gardengal's website. includes an image of her garden in full bloom taken in 2023 and a short bio.">
 
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  link to custom css code / bootstrap v5.3 -->
 
-        <!-- browser tab title and a custom icon for the website -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
 
-        <title>Gardengal-Home</title>
-        <link rel="shortcut icon" href="assets/img/favicon_128.ico">
-    </head>
-    <body>
-        <div class="container-fluid all-green-background">
-            <header>
+  <!-- browser tab title and a custom favicon for the website -->
 
-                <!-- bootstrap to set width of header and how flex display behaves / centers text & navbar -->
+  <title>Tracey the Gardengal</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
 
-                <div class="row justify-content-center">
-                    <div class="col-12 d-flex flex-column align-items-center justify-content-center header-design">
-                        <div class="title-details">Tracey the Gardengal</div>
+<!-- bootstrap navbar -->
 
-                        <!--  navbar bootstrap buttons and what they link to -->
-
-                        <nav id="main-nav" aria-label="Main">
-                            <ul>
-                                <li><button onclick="window.location.href='index.html';" class="nav-btn-style active">Home</button></li>
-                                <li><button onclick="window.location.href='gallery.html';" class="nav-btn-style">Plants</button></li>
-                                <li><button onclick="window.location.href='garden.html';" class="nav-btn-style">Garden</button></li>
-                                <li><button onclick="window.location.href='contact.html';" class="nav-btn-style">Contact</button></li>
-                            </ul>
-                        </nav>
-                    </div> 
-                </div>
-            </header>
-
-            <!--  bootstrap to set behaviour of homepage on mobiles and desktop -->
-
-            <div class="row d-flex align-items-center ">
-                <div class="col-12 col-lg-6 gx-0">  
-                    <div class="image-outer">
-                        <div class="image-garden" role="img" aria-label="tracey's garden">
-                        </div>
-
-                        <!-- clever little 'frosted glass' effect for year. credit given in style.css.  -->
-
-                        <p id="image-text-glass">2023</p>
-                    </div>   
-                </div>
-
-                <!-- about tracey text. behaviour on mobiles & desktop set with bootstrap and custom css -->
-
-                <section role="contentinfo" aria-label="A description of Tracey's love of gardening and why she started her business." class="col col-lg-4 p-4 d-flex flex-column align-items-center justify-content-center" id="about-tracey-text">
-                    <p id="hide-para-sm">
-                        Hi, I'm Tracey the gardengal and welcome to my website. I have lived in and around Buckfastleigh in the beautiful county of Devon for quite 
-                        a few years now and inspired by the countryside I decided to change my life and become a gardener.
-                    </p>
-                    <p>
-                        Gardening is such a wonderful way to spend my days and I love helping people achieve their garden dreams. Plus there's always time for a nice cup of tea 
-                        and maybe a suggestion of cake. 
-                    </p>
-                    <p>
-                        Feel free to check out the  plants gallery where there's pictures of some of my favourite plants and flowers, or the garden section where there's 
-                        a few photos of my garden build. Reach out to me via email in the contact section or preferably message me via Facebook and Instagram.
-                    </p>    
-                </section>
-            </div>
-
-            <!-- footer behaviour set with bootstrap and custom css. social media icons from font-awesome.  -->
-
-            <footer>
-                <div class="row justify-content-center">
-                    <nav class="col-12 d-flex align-items-center justify-content-center footer-design" id="footer-nav" aria-label="Footer">
-                        <a href="https://www.facebook.com/tracey.hurstbrown" target="_blank" aria-label="Go to my facebook page (opens in a new tab)">
-                            <i class="fa fa-facebook fa-4x fa-icon-col" aria-hidden="true"></i>
-                        </a>
-                        <span id="footer-text">Click the icons to check out my Facebook & Instagram</span>
-                        <a class="icon-button"  href="https://www.instagram.com/shirleymental/" target="_blank" aria-label="Go to my instagram page (opens in a new tab)">
-                            <i class="fa fa-instagram fa-4x fa-icon-col" aria-hidden="true" ></i>
-                        </a>
-                    </nav>
-                </div>
-            </footer>
+<body id="home-page">
+  <div class="home-image">
+    <nav class="navbar navbar-expand-lg navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand brand-font" href="#home">Tracey The Gardengal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#plant-gallery">Plant Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#garden-gallery">Garden Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </div>
+  <div id="about-me">
+    <section role="contentinfo" id="about-me-style"
+      aria-label="A description of Tracey's love of gardening and why she started her business."
+      class="d-flex-column align-items-center justify-content-center p-5">
+      <p>
+        Hi, I'm Tracey the Gardengal and welcome to my website. I have lived in and around Buckfastleigh in the
+        beautiful county of Devon for quite
+        a few years now and inspired by the countryside I decided to change my life and become a gardener.
+      </p>
+      <p>
+        Gardening is such a wonderful way to spend my days and I love helping people achieve their garden dreams. Plus
+        there's always time for a nice cup of tea
+        and maybe a suggestion of cake.
+      </p>
+      <p>
+        Feel free to check out the gallery where there's pictures of some of my favourite plants and flowers, or the
+        garden section where there's
+        a few photos of my garden build. Reach out to me via email in the contact section or preferably message me via
+        Facebook and Instagram.
+      </p>
+    </section>
+  </div>
 
-        <!-- bootstrap v5.3 javascript cdn. placed at end of code to prevent it loading before the html does  -->
+  <!-- carousel for plant gallery c/w descriptions and a quote -->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
-</html>
+  <div class="back-to-top d-flex justify-content-center align-items-center">
+    <a href="#home-page" role="button" class="btn btn-outline-primary">Back to Top</a>
+  </div>
+  <div class="row d-flex justify-content-center" id="plant-gallery">
+    <div class="col-12 col-md-4 col-lg-4 d-flex align-items-center">
+      <div class="d-none d-md-block">
+        <q id="tracey-quote"><span>Did you know that the name for a lady gardener is a Gardengal?
+          </span></q>
+      </div>
+    </div>
+    <div class="col-8 col-md-6 col-lg-4">
+      <div id="carouselPlantAuto" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselPlantAuto" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/dianthus.webp" class="d-block w-100" alt="Dianthus">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dianthus - Dianthus</h5>
+              <p>Known as garden pinks because their leaves look like they've been trimmed with pinking shears. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/acer.webp" class="d-block w-100" alt="Acer">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Acer</h5>
+              <p>Also known as the Japanese maple they are actually trees and are ideal to grow
+                in containers.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/azalea.webp" class="d-block w-100" alt="Rhododendron">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Azalea - Rhododendron</h5>
+              <p>Once thought to be entirely separate to rhododendrons azaleas are now considered to be part
+                of the rhododendron family.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/sunflower.webp" class="d-block w-100" alt="Sunflower">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sunflower - Helianthus</h5>
+              <p>Sunflowers are iconic and as one of the easiest flowers to grow they thrive
+                in full sun and aren’t picky about soil.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/pyracantha.webp" class="d-block w-100" alt="Pyracantha">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pyracantha - Pyracantha</h5>
+              <p>A very pretty evergreen shrub also known as Firethorn. Grows flowers and berries which can be red,
+                yellow or orange.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/cosmos.webp" class="d-block w-100" alt="Cosmos">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cosmos - Cosmos</h5>
+              <p>Cosmos are sun-loving plants with a long flowering season that runs well into autumn.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/rose.webp" class="d-block w-100" alt="Rose">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Rose - Rosa</h5>
+              <p>Roses are a classic and instantly recognisable plant, many are fragrant,
+                ideal for almost every style of garden.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hellebore.webp" class="d-block w-100" alt="Hellebore">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hellebore - Helleborus</h5>
+              <p>A classic winter flowering plant but longlasting so you'll still see them in spring.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/echinacea.webp" class="d-block w-100" alt="Echinacea">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Echinacea - Echinacea</h5>
+              <p>Also known as coneflower these plants are again very popular with pollinators and have
+                very distinctive flowers that bring a lovely splash of colour to any garden.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlantAuto" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPlantAuto" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel for garden build gallery c/w descriptions and a quote -->
+
+  <div class="row d-flex justify-content-center pt-2" id="garden-gallery">
+    <div class="col-8 col-md-6 col-lg-4">
+      <div id="carouselGardenAuto" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselGardenAuto" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="7000">
+            <img src="assets/img/garden_no_lawn.webp" class="d-block w-100" alt="gardenNoLawn">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lawn is removed</h5>
+              <p>The garden was a typical modern garden. Just a small lawn and a few paving slabs.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/img/garden_wooden_borders.webp" class="d-block w-100" alt="gardenWoodenBorders">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wooden border planks fitted</h5>
+              <p>Wooden planks were used to define the borders for the garden.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/img/garden_sand_gravel.webp" class="d-block w-100" alt="gardenSandInfill">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A sand foundation was used in preparation for the artificial lawn.</h5>
+              <p>In order to ensure a smooth lawn a sand foundation was laid and levelled.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/img/garden_lawn.webp" class="d-block w-100" alt="gardenArtificialLawn">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A small artificial lawn was nailed into place</h5>
+              <p>As the area of lawn was small it was decided to lay a good quality artificial lawn.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/img/penultimate_garden_pic.webp" class="d-block w-100" alt="gardenPlanting">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Then the planting could begin</h5>
+              <p>Gradually the look of the garden planting took shape.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/img/final_garden_pic.webp" class="d-block w-100" alt="gardenFinalLook">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Finally completed</h5>
+              <p>But? Is work on a garden ever really finished??</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGardenAuto" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselGardenAuto" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 d-flex align-items-center">
+      <div class="d-none d-md-block">
+        <q id="tracey-quote"><span>Gardening is not just a great way to exercise, it's also good for your mental health too!
+          </span></q>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact icons and a quote -->
+  
+  <div class="row" id="contact-me">
+    <div class="col-12 d-flex justify-content-center p-3">
+      <q id="tracey-quote"><span>Contact me via Facebook, Email or Instagram.</span></q>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <nav class="col-12 d-flex align-items-center justify-content-evenly">
+        <a href="https://www.facebook.com/tracey.hurstbrown" target="_blank" aria-label="Go to my facebook page (opens in a new tab)">
+            <img src="assets/img/facebook.png" aria-hidden="true">
+        </a>
+        <a href="mailto:traceyhb.athome@gmail.com" target="_blank">
+          <img src="assets/img/email.png" aria-hidden="true">
+      </a>
+        <a href="https://www.instagram.com/shirleymental/" target="_blank" aria-label="Go to my instagram page (opens in a new tab)">
+            <img src="assets/img/instagram.png" aria-hidden="true" >
+        </a>
+    </nav>
+  </div>
+  <div class="row-cols-8 d-flex justify-content-evenly">
+                
+      <!-- embedded google maps code and custom css to make it responsive  -->
+
+      <div class="col-10 d-flex">
+          <div class="col-12 col-lg-6 justify-content-center map-responsive d-none d-lg-block">
+              <iframe title="Map showing Buckfastleigh" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10155.951337041812!2d-3.7904141615448776!3d50.47857020054749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486cfc4e496ec4b1%3A0xaaffeacc284064c9!2sBuckfastleigh!5e0!3m2!1sen!2suk!4v1689261953870!5m2!1sen!2suk" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+          </div> 
+
+          <!-- image of the gardengal  -->
+
+          <div class="col-12 col-lg-6 justify-content-center">
+              <img id="image-settings-tracey" src="assets/img/tracey_gardengal.webp" alt="Tracey stood in a garden">
+          </div>
+      </div>
+      
+  </div>
+  <div class="back-to-top d-flex justify-content-center align-items-center">
+    <a href="#home-page" role="button" class="btn btn-outline-primary">Back to Top</a>
+  </div>
+
+  <!-- footer behaviour set with bootstrap and custom css. social media icons from flaticon (credit in readme).  -->
+  <footer>
+    <div class="row p-5 align-items-end background-flowers">
+      <div class="col-12 d-flex footer-style">
+        <a href="https://www.4uxdesign.com" target="_blank" aria-label="Go to 4uxdesign.com">
+          © 4uxdesign.com 2024</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
