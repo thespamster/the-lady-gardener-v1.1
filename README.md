@@ -18,7 +18,7 @@ The main changes from the original build are:
 ## Media
 
 - All images used were shot on my wife's iPhone 11
-- Credit to [Freepik at Flaticons.com](https://www.flaticon.com) for the Facebook, Instagram and Email icons. Check them out. Awesome icons for free!
+- Credit to [Freepik at Flaticons.com](https://www.flaticon.com) for the Facebook, Instagram, Email and flower icons. Check them out. Awesome icons for free!
 
 ## Original Project
 
