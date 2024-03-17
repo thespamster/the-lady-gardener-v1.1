@@ -83,6 +83,22 @@ footer a {
   width: 100%;
 }
 
+.background-flower-pot {
+  background: url('/assets/img/lavender.png') no-repeat right bottom;
+  background-size: 384px 384px;
+}
+
+.background-sakura {
+  background: url('/assets/img/sakura.png') no-repeat right bottom;
+  background-size: 256px 256px;
+}
+
+#image-settings-tracey {
+  height: 65dvh;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 /* ---- PREVIOUS CSS. DELETE WHAT ISNT NEEDED  ---- */
 
@@ -129,11 +145,7 @@ details summary {
   font-weight: 700;
 }
 
-#image-settings-tracey {
-  height: 65dvh;
-  width: 100%;
-  object-fit: cover;
-}
+
 
 .fa-icon-col {
   color: rgb(0, 0, 0);
