@@ -26,9 +26,9 @@ The main changes from the original build are:
 
 ## Performance and Testing
 
-Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
-![](assets/img/google_lhouse_0324.png)
-
+- Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
+![](assets/img/glighthouse_0324.png)
+- Resource hint validator [DebugBear](https://www.debugbear.com/resource-hint-validator)
 ## Original Project
 
 The original site can be viewed here.
