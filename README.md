@@ -1,6 +1,10 @@
-﻿# Tracey the Gardengal v1.1
+﻿![](assets/img/amiresonsive.jpeg)
 
-This is a revised version of my first ever website build. The remit was to build a 3-page minimum site using HTML and CSS. I have now redesigned and rebuilt the site from the ground up. This will be deployed as my wife's new gardening site.
+# Tracey the Gardengal v1.1
+
+This is a revised version of my first ever website build. The remit was to build a 3-page minimum site using HTML and CSS. I have now redesigned and rebuilt the site from the ground up. 
+
+The site can be viewed here: [www.traceygardengal.com](https://www.traceygardengal.com/)
 
 The main changes from the original build are:
 
@@ -20,8 +24,15 @@ The main changes from the original build are:
 - All images used were shot on my wife's iPhone 11
 - Credit to [Freepik at Flaticons.com](https://www.flaticon.com) for the Facebook, Instagram, Email and flower icons. Check them out. Awesome icons for free!
 
+## Performance and Testing
+
+Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
+![](assets/img/google_lighthouse_0324.png)
+
 ## Original Project
 
 The original site can be viewed here.
 
 [Tracey the Gardengal](https://github.com/thespamster/the-lady-gardener.git)
+
+
