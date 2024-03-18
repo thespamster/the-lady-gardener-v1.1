@@ -27,7 +27,7 @@ The main changes from the original build are:
 ## Performance and Testing
 
 Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
-![](assets/img/google_lighthouse_0324.png)
+![](assets/img/google_lhouse_0324.png)
 
 ## Original Project
 
