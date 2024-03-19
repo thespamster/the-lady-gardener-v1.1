@@ -103,8 +103,8 @@ footer a {
   height: 100dvh;
   width: 100%;
   padding: 5px;
-  background: url('../img/404.png') no-repeat center top;
-  background-size: 512px 512px;
+  background: url('../img/404.png') no-repeat center;
+  background-size: 384px 384px;
 } 
 
 .style-text-404 {
