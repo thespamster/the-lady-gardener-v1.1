@@ -15,23 +15,23 @@ The main changes from the original build are:
 
 ## Technologies Used
 
-- Bootstrap v5 CSS & Javascript library [Bootstrap v5.3 - CSS library](https://getbootstrap.com/)
+- Bootstrap v5 CSS & Javascript library [Bootstrap v5.3](https://getbootstrap.com/)
 - To create the favicon for the title bar, [favicon.io](https://favicon.io/favicon-generator/)
 - Custom Google fonts [Google Fonts](https://fonts.google.com/)
 
 ## Media
 
-- All images used were shot on my wife's iPhone 11
-- Credit to [Freepik at Flaticons.com](https://www.flaticon.com) for the Facebook, Instagram, Email and flower icons. Check them out. Awesome icons for free!
+- All images used were shot on my wife's iPhone 11 or my Nothing Phone(1).
+- Credit to [Freepik at Flaticons.com](https://www.flaticon.com) for the Facebook, Instagram, Email, flower and 404 icons. Check them out. Awesome icons for free!
 
 ## Performance and Testing
 
 - Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
-![](assets/img/glighthouse_0324.png)
+![](assets/img/google_lighthouse0324.png)
 - Resource hint validator [DebugBear](https://www.debugbear.com/resource-hint-validator)
 ## Original Project
 
-The original site can be viewed here.
+The original site can be viewed here:
 
 [Tracey the Gardengal](https://github.com/thespamster/the-lady-gardener.git)
 
