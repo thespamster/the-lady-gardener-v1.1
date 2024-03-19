@@ -12,6 +12,7 @@ The main changes from the original build are:
 - Bootstrap carousels replace both the plant gallery and the garden gallery.
 - The Facebook and Instagram icons are now embedded in the main body of the site rather than being in the footer. The email icon is reduced in size.
 - A much smaller footer with a flowers icon behind it to the right makes for a cleaner look at the bottom of the page.
+- A custom 404 error page. Much better than the default 404 page and has a link back to traceygardengal.com
 
 ## Technologies Used
 
