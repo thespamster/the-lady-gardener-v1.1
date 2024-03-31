@@ -39,5 +39,3 @@ The main changes from the original build are:
 ## Original Project
 
 The original site can be viewed here: [Tracey the Gardengal](https://github.com/thespamster/the-lady-gardener.git)
-
-
