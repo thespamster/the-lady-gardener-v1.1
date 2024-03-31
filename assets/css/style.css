@@ -1,4 +1,4 @@
-/* ---- import required Google fonts ---- */
+/* ---- import required google fonts ---- */
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap'); 
 
@@ -46,7 +46,7 @@ body {
   height: 10dvh;
 }
 
-#tracey-quote {
+.tracey-quote {
   font-family: "Caveat", sans-serif;
   font-weight: 400;
   font-size: calc(1em + 2vw);
@@ -118,7 +118,6 @@ footer a {
 .page-text-color {
   color: rgb(0, 0, 0);
   font-size: 1em;
-
 }
 
 .link-text-color {
@@ -128,69 +127,23 @@ footer a {
   text-decoration: none;
 }
 
+/* ---- !important to override default bootstrap styling ---- */
 
-/* ---- PREVIOUS CSS. DELETE WHAT ISNT NEEDED  ---- */
-
-
-/* ---- garden build photos ---- */
-
-.photo-container {
-  overflow: hidden
+.btn-style {
+  border-radius: 0 !important;
+  border-color: green !important;
+  color: green !important;
 }
 
-.photo-border {
-  height: 475px;
-  width: 550px;
-  padding: 15px;
-  background-color: rgb(245, 245, 248);
-  box-shadow: 5px 10px 10px darkgrey;
+.btn-style:hover {
+  background-color: green !important;
+  color: white !important;
 }
 
-.rotate-left-15 {
-  transform: rotate(-15deg);
+.alert-style {
+  border-radius: 0 !important;
 }
 
-.rotate-left-23 {
-  transform: rotate(-23deg);
+.navbar-style {
+  border-radius: 0 !important;
 }
-
-.rotate-right-18 {
-  transform: rotate(18deg);
-}
-
-.rotate-right-32 {
-  transform: rotate(32deg);
-}
-
-/* ---- contact me page text styling details ---- */
-
-details {
-  padding: 15px;
-  font-family: "Delius", sans-serif;
-  font-size: 1.2em;
-}
-
-details summary {
-  font-weight: 700;
-}
-
-
-
-.fa-icon-col {
-  color: rgb(0, 0, 0);
-  transition-duration: 1.0s;
-}
-
-.email-text-style {
-  color: rgb(0, 0, 0);
-  font-family: "Delius", sans-serif;
-  font-size: 4em;
-  font-weight: 600;
-}
-
-#email-textbox-details {
-  height: 65dvh;
-  align-items: center;
-  justify-content: center;
-}
-

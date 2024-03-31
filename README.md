@@ -31,10 +31,13 @@ The main changes from the original build are:
 - Google Lighthouse tests for Performance, Accessibility, Best Practices and SEO.
 ![](assets/img/google_lighthouse0324.png)
 - Resource hint validator [DebugBear](https://www.debugbear.com/resource-hint-validator)
+- W3C HTML Checker.
+![W3C HTML checker](assets/img/w3c_html_checker.png)
+- W3C CSS Validation
+![W3C CSS validation](assets/img/w3c_css_validator.png)
+
 ## Original Project
 
-The original site can be viewed here:
-
-[Tracey the Gardengal](https://github.com/thespamster/the-lady-gardener.git)
+The original site can be viewed here: [Tracey the Gardengal](https://github.com/thespamster/the-lady-gardener.git)
 
 

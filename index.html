@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -26,14 +25,13 @@
   <title>Tracey the Gardengal</title>
   <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
-
 <body id="home-page">
 
   <!-- dismissable alert about cookies -->
 
   <div class="row justify-content-center">
     <div class="col-11 d-flex">
-      <div class="w-100 alert alert-warning alert-dismissible fade show" role="alert">
+      <div class="w-100 alert alert-warning alert-dismissible fade show alert-style" role="alert">
         <strong>Cookie Policy:</strong> Although this site doesn't use cookies the embedded Google map may do. By
         continuing to view this site you are giving your consent to these cookies. You can manage the cookies stored on
         your device in your browser settings.
@@ -48,26 +46,26 @@
     <nav class="navbar navbar-expand-lg navbar-color">
       <div class="container-fluid">
         <a class="navbar-brand brand-font" href="#home-page" aria-label="home">Tracey The Gardengal</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler navbar-style" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="home" href="#home-page">Home</a>
+              <a class="nav-link" aria-current="page" href="#home-page">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="about-me" href="#about-me">About Me</a>
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="plant-gallery" href="#plant-gallery">Plant Gallery</a>
+              <a class="nav-link" aria-current="page" href="#plant-gallery">Plant Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="garden-gallery" href="#garden-gallery">Garden Gallery</a>
+              <a class="nav-link" aria-current="page" href="#garden-gallery">Garden Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" name="nav-link" aria-current="page" href="#contact-me">Contact Me</a>
+              <a class="nav-link" aria-current="page" href="#contact-me">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -99,12 +97,12 @@
   <!-- carousel for plant gallery c/w descriptions and a quote -->
 
   <div class="back-to-top d-flex justify-content-center align-items-center">
-    <a href="#home-page" aria-label="back-to-top" role="button" class="btn btn-outline-primary">Back to Top</a>
+    <a href="#home-page" aria-label="back-to-top" role="button" class="btn btn-outline-primary btn-style">Back to Top</a>
   </div>
   <div class="row d-flex justify-content-center" id="plant-gallery">
     <div class="col-12 col-md-4 col-lg-4 d-flex align-items-center background-flower-pot">
       <div class="d-none d-md-block">
-        <q id="tracey-quote"><span>Did you know that the name for a lady gardener is a Gardengal?
+        <q class="tracey-quote"><span>Did you know that the name for a lady gardener is a Gardengal?
           </span></q>
       </div>
     </div>
@@ -275,7 +273,7 @@
     </div>
     <div class="col-12 col-md-4 col-lg-4 d-flex align-items-center background-sakura">
       <div class="d-none d-md-block">
-        <q id="tracey-quote"><span>Gardening is not just a great way to exercise, it's also good for your mental health
+        <q class="tracey-quote"><span>Gardening is not just a great way to exercise, it's also good for your mental health
             too!
           </span></q>
       </div>
@@ -286,22 +284,22 @@
 
   <div class="row" id="contact-me">
     <div class="col-12 d-flex justify-content-center p-3">
-      <q id="tracey-quote"><span>Contact me via Facebook, Email or Instagram.</span></q>
+      <q class="tracey-quote"><span>Contact me via Facebook, Email or Instagram.</span></q>
     </div>
   </div>
   <div class="row pb-5">
     <nav class="col-12 d-flex align-items-center justify-content-evenly">
       <a href="https://www.facebook.com/tracey.hurstbrown" target="_blank"
         aria-label="go to my facebook page (opens in a new tab)">
-        <img src="assets/img/facebook.png" aria-hidden="true">
+        <img src="assets/img/facebook.png" alt="facebook-icon" aria-hidden="true">
       </a>
       <a href="mailto:traceyhb.athome@gmail.com" target="_blank"
         aria-label="send an email to traceyhb.athome@gmail.com (opens in a new tab)">
-        <img src="assets/img/email.png" aria-hidden="true">
+        <img src="assets/img/email.png" alt="email-icon" aria-hidden="true">
       </a>
       <a href="https://www.instagram.com/shirleymental/" target="_blank"
         aria-label="go to my instagram page (opens in a new tab)">
-        <img src="assets/img/instagram.png" aria-hidden="true">
+        <img src="assets/img/instagram.png" alt="instagram-icon" aria-hidden="true">
       </a>
     </nav>
   </div>
@@ -326,10 +324,11 @@
 
   </div>
   <div class="back-to-top d-flex justify-content-center align-items-center">
-    <a href="#home-page" role="button" class="btn btn-outline-primary" aria-label="back-to-top">Back to Top</a>
+    <a href="#home-page" role="button" class="btn btn-outline-primary btn-style" aria-label="back-to-top">Back to Top</a>
   </div>
 
   <!-- footer behaviour set with bootstrap and custom css. social media icons from flaticon (credit in readme).  -->
+
   <footer>
     <div class="row p-5 align-items-end background-flowers">
       <div class="col-12 d-flex footer-style">
