@@ -7,12 +7,10 @@
     content="the homepage of tracey the gardengal's website. includes an image of her garden in full bloom taken in 2023 and a short bio.">
 
   <!--  link to custom css code / bootstrap v5.3 -->
-
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
 
   <!--  preload mainpage images and required google fonts -->
-
   <link rel="preload" fetchpriority="high" as="image" href="assets/img/garden_image.webp" type="image/webp">
   <link rel="prefetch" href="assets/img/flower_pot.png" type="image/webp">
   <link rel="prefetch" href="assets/img/flower.png" type="image/webp">
@@ -20,28 +18,29 @@
   <link rel="prefetch" crossorigin="anonymous"
     href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap">
 
-  <!-- browser tab title and a custom favicon for the website -->
+  <!-- Google Maps API -->
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-E3IrGi2Bz1bbFplAe3o4VEUzFK0VIo&callback=console.debug&libraries=maps,marker&v=beta">
+  </script>
 
+  <!-- browser tab title and a custom favicon for the website -->
   <title>Tracey the Gardengal</title>
   <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
 <body id="home-page">
 
   <!-- dismissable alert about cookies -->
-
   <div class="row justify-content-center">
     <div class="col-11 d-flex">
-      <div class="w-100 alert alert-success alert-dismissible fade show alert-style" role="alert">
-        <strong>Cookie Policy:</strong> Although this site doesn't use cookies the embedded Google map may do. By
-        continuing to view this site you are giving your consent to these cookies. You can manage the cookies stored on
-        your device in your browser settings.
+      <div class="w-100 alert alert-success alert-dismissible fade show alert-style text-center" role="alert">
+        This site doesn't use cookies as the embedded Google Map uses the latest Javascript API which
+        doesn't require them.
+
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
     </div>
   </div>
 
-  <!-- bootstrap navbar -->
-
+  <!-- customised Bootstrap navbar -->
   <div class="home-image">
     <nav class="navbar navbar-expand-lg navbar-color">
       <div class="container-fluid">
@@ -95,7 +94,6 @@
   </div>
 
   <!-- carousel for plant gallery c/w descriptions and a quote -->
-
   <div class="row py-2">
   <div class="col-12 back-to-top d-flex justify-content-center align-items-center">
     <a href="#home-page" aria-label="back-to-top" role="button" class="btn btn-outline-primary btn-style">Back to Top</a>
@@ -206,7 +204,6 @@
   </div>
 
   <!-- carousel for garden build gallery c/w descriptions and a quote -->
-
   <div class="row d-flex justify-content-center pt-2" id="garden-gallery">
     <div class="col-8 col-md-6 col-lg-4">
       <div id="carouselGardenAuto" class="carousel slide" data-bs-ride="carousel">
@@ -283,10 +280,9 @@
   </div>
 
   <!-- contact icons and a quote -->
-
   <div class="row" id="contact-me">
     <div class="col-12 d-flex justify-content-center p-3">
-      <q class="tracey-quote"><span>Contact me via Facebook, Email or Instagram.</span></q>
+      <q class="tracey-quote"><span class="text-center text-wrap">Contact me via Facebook, Email or Instagram.</span></q>
     </div>
   </div>
   <div class="row pb-5">
@@ -305,22 +301,22 @@
       </a>
     </nav>
   </div>
-  <div class="row-cols-8 d-flex justify-content-evenly">
+  
 
     <!-- embedded google maps code and custom css to make it responsive  -->
-
-    <div class="col-10 d-flex">
-      <div class="col-12 col-lg-6 justify-content-center map-responsive d-none d-lg-block">
-        <iframe title="Map showing Buckfastleigh"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10155.951337041812!2d-3.7904141615448776!3d50.47857020054749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486cfc4e496ec4b1%3A0xaaffeacc284064c9!2sBuckfastleigh!5e0!3m2!1sen!2suk!4v1689261953870!5m2!1sen!2suk"
-          width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="row justify-content-center">
+    
+      <div class="col-10 col-lg-8 justify-content-center">
+        <gmp-map center="50.48076248168945,-3.7826249599456787" zoom="14" map-id="DEMO_MAP_ID">
+          <gmp-advanced-marker position="50.48076248168945,-3.7826249599456787" title="My location"></gmp-advanced-marker>
+          </gmp-map>
       </div>
-
+    
+    </div>
       <!-- image of the gardengal  -->
-
-      <div class="col-12 col-lg-6 justify-content-center">
-        <img id="image-settings-tracey" src="assets/img/tracey_gardengal.webp" alt="tracey stood in a garden">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 justify-content-center">
+        <img class="img-fluid" id="image-settings-tracey" src="assets/img/tracey_gardengal.webp" alt="tracey stood in a garden">
       </div>
     </div>
 
