@@ -148,11 +148,10 @@ footer a {
   border-radius: 0 !important;
 }
 
-/* Google map style */
-gmp-map {
-  height: 400px;
+/* OSM style */
+.osm-style {
+  max-height: 450px;
   border: 2px solid rgba(0, 0, 0, 0.15);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  overflow: hidden;
 }
